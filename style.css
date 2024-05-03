@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #441c14;
+    color: #fff;
+    text-align: center;
+}
+
+#about{
+    background-color: rgb(246, 242, 242);
+    color: rgb(59, 26, 21);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.image, .content {
+    flex: 1;
+    padding: 10px;
+    margin-left: 80px;
+}
+
+.image img {
+    max-width: 100%;
+}
+
+.content {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    position: relative;
+    right: 15vw;
+}
+
+.content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    margin-bottom: 15px;
+}
+
+#Skills {
+    background-color: rgb(115, 196, 196);
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+}
+
+.skill li {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+
+.skill1 {
+    height: 20px;
+    width: 1000px;
+    background-color: #ddd;
+    margin-left: 170px;
+}
+.skill2 {
+    height: 20px;
+    width: 1000px;
+    background-color: #ddd;
+    margin-left: 154px;
+}
+.skill3 {
+    height: 20px;
+    width: 1000px;
+    background-color: #ddd;
+    margin-left: 136px;
+}
+.skill4 {
+    height: 20px;
+    width: 1000px;
+    background-color: #ddd;
+    margin-left: 28px;
+}
+.skill1percent, .skill2percent, .skill3percent, .skill4percent {
+    height: 100%;
+    background-color: rgb(25, 24, 24);
+}
+
+.projects-container {
+    overflow: hidden;
+}
+
+.project {
+    width: calc(50% - 20px);
+    margin: 10px;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project p {
+    margin-bottom: 10px;
+}
+
+.project img {
+    max-width: 70%;
+}
+
+.center {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
